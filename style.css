@@ -238,7 +238,7 @@
       
    }
    .firstNav{   
-      width:50%;
+      width:46%;
       padding:20px;
       position: fixed;
       background-color: rgb(2, 62, 127);
@@ -359,7 +359,7 @@
       align-items: center;
       justify-content: center;
       z-index: 1;
-      margin-left: -480px;
+      margin-left: -400px;
       height: 100vh; 
       width: 100%;
       position: fixed;
@@ -393,7 +393,7 @@
      height: 100vh;
      position: fixed;
      z-index: 22; 
-     margin-left: -480px;
+     margin-left: -400px;
      transition: 1s;
      overflow: hidden;
      background-color:rgb(2, 62, 127) ;
