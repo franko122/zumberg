@@ -6,14 +6,14 @@ function StartWork() {
     let menu = document.getElementById('menu');
     let secmenu = document.getElementById('secmenu');
     let lou = document.getElementById('lou');
-    
-   let track1 = 74774756457 ;
+    let ouns = document.getElementById('ouns')
+   let track1 = 74774756457 ; 
 
    bag.addEventListener('click' ,()=>{
           bag.style.border='solid  rgb(2, 62, 127) 4px';
-   })
-
-
+          ouns.style.display="none"
+   }) 
+   
   setInterval(() => {
     lokij.style.display="none"
   }, 3000);
@@ -27,8 +27,8 @@ function StartWork() {
           }
           
         else{
-          bag.style.border='solid red 3px' 
-          alert('Goods not Found')
+          bag.style.border='solid red 3px'  
+          ouns.style.display="block"
         } 
   })
   
