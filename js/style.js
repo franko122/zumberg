@@ -7,6 +7,7 @@ function StartWork() {
     let secmenu = document.getElementById('secmenu');
     let lou = document.getElementById('lou');
     let ouns = document.getElementById('ouns')
+    
    let track1 = 74774756457 ; 
 
    bag.addEventListener('click' ,()=>{

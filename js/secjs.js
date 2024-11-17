@@ -19,8 +19,7 @@ function StartWork() {
             setTimeout(() => {
               window.location="mainresult.html"
             }, 3000);
-          }
-          
+          } 
         else{
           bag.style.border='solid red 3px' 
           alert('Goods not Found')
