@@ -567,15 +567,8 @@ border-radius: 10px;
    .piside{
       background-image: url("./assets/img/ship.jpg");
       background-blend-mode: multiply;
-      height: 400px;
-      color: white;
-      font-size:13px;
-      display: flex; 
-      align-items: center;
-      text-align: center;
-      width: 100%;
-      background-color: rgba(0, 0, 0, 0.756);
-      background-size: 100%, 100%;
+      height: 400px; 
+      
    }
    .goods{
      padding: 20px;
