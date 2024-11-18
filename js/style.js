@@ -32,15 +32,11 @@ function StartWork() {
           ouns.style.display="block"
         } 
   })
-  
   menu.addEventListener('click',()=>{ 
-    secmenu.style.width="100%"
-  })
-
+    secmenu.style.width="100%";
+  }) 
   lou.addEventListener('click',()=>{ 
     secmenu.style.width="0%"
-  })
-
-
+  }) 
 }
 StartWork()
