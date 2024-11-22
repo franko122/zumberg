@@ -4,15 +4,11 @@ function StartWork() {
     let loki  = document.getElementById('loki') 
     let menu = document.getElementById('menu');
     let secmenu = document.getElementById('secmenu');
-    let lou = document.getElementById('lou');
-    
-   let track1 = 74774756457 ;
-
+    let lou = document.getElementById('lou'); 
+   let track1 = 74774756457; 
    bag.addEventListener('click' ,()=>{
           bag.style.border='solid  rgb(2, 62, 127) 4px';
-   })
- 
-
+   })  
    neto.addEventListener('click',()=>{ 
         if (bag.value == track1) { 
             loki.style.display="flex"
@@ -24,8 +20,7 @@ function StartWork() {
           bag.style.border='solid red 3px' 
           alert('Goods not Found')
         } 
-  })
-  
+  }) 
   menu.addEventListener('click',()=>{ 
     secmenu.style.width="100%"
   })
