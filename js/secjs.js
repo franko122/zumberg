@@ -18,7 +18,7 @@ function StartWork() {
           } 
         else{
           bag.style.border='solid red 3px' 
-          alert('Goods not Found')
+          
         } 
   }) 
   menu.addEventListener('click',()=>{ 
