@@ -9,7 +9,7 @@ function StartWork() {
     let lou = document.getElementById('lou');
     let ouns = document.getElementById('ouns')
     
-   let track1 = y; 
+   let track1 = 5;
 
    bag.addEventListener('click' ,()=>{
           bag.style.border='solid  rgb(2, 62, 127) 4px';
