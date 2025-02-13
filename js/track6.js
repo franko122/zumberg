@@ -24,7 +24,7 @@ function StartWork() {
         if (bag.value == track1) { 
             loki.style.display="flex"
             setTimeout(() => {
-              window.location="main5.html"
+              window.location="track6.html"
             }, 3000);
           }
           
